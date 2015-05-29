@@ -7,7 +7,7 @@ if(!localStorage.getItem('name')) {
   setUserName();
 } else {
   storedName = localStorage.getItem('name');
-  myHeading.innerHTML = 'Mozilla is cool, ' + storedName;
+  myHeading.innerHTML = 'Day after leg day, ' + storedName;
 }
 
 myImage.onclick = function() {
@@ -25,7 +25,7 @@ myImage.onclick = function() {
 function setUserName() {
   var myName = prompt('Please enter your name.');
   localStorage.setItem('name', myName);
-  myHeading.innerHTML = 'Mozilla is cool, ' + myName;
+  myHeading.innerHTML = 'Click on the picture, ' + myName;
 }
 
 myButton.onclick = function() {
